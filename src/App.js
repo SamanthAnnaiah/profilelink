@@ -18,7 +18,6 @@ function App() {
         <Namecomp classid={"tac cbutton mt3"} paddy={"paddy"} datacont={'Instagram'} clink={"https://www.instagram.com/predator/?hl=en"} />
         <Namecomp classid={"tac cbutton mt3"} paddy={"paddy"} datacont={'Fandom'} clink={"https://avp.fandom.com/wiki/Yautja_(Predator)"} />
         <Namecomp classid={"tac cbutton mt3 mb1"} paddy={"paddy"} datacont={'Wiki'} clink={"https://en.wikipedia.org/wiki/Predator_(franchise)"} />
-
       </div>
     </>
   );
