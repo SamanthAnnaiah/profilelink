@@ -1,0 +1,103 @@
+@font-face {
+  font-family: "iib";
+  src: url("./interfonts/Inter-Bold.ttf");
+}
+@font-face {
+  font-family: "iir";
+  src: url("./interfonts/Inter-Regular.ttf");
+}
+@font-face {
+  font-family: "iis";
+  src: url("./interfonts/Inter-SemiBold.ttf");
+}
+
+html {
+  box-sizing: border-box;
+  background-color: hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 100%);
+  font-family: "iib";
+}
+
+.mt1 {
+  margin-top: 27px;
+}
+.mt2 {
+  margin-top: 15px;
+}
+.mt3 {
+  margin-top: 13px;
+}
+.mt4 {
+  margin-top: 5px;
+}
+
+.mb1 {
+  margin-bottom: 40px;
+}
+
+.tac {
+  text-align: center;
+}
+
+.rounded {
+  border-radius: 80px;
+  box-shadow: rgba(132, 128, 128, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  height: 30%;
+  width: 30%;
+  transition: height 0.7s, width 0.7s;
+}
+.rounded:hover {
+  height: 40%;
+  width: 40%;
+}
+
+.paddy {
+  padding: 8px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+
+div.profilecard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 22%;
+  margin: auto;
+  margin-top: 5%;
+  min-height: 400px;
+  border-radius: 13px;
+  box-shadow: hsla(75, 94%, 57%, 0.247) 0px 3px 8px;
+  background-color: hsl(0, 0%, 12%);
+}
+
+.cname {
+  font-family: "iib";
+  font-size: medium;
+}
+
+.cplace {
+  color: hsl(75, 94%, 57%);
+  font-size: smaller;
+}
+
+.cquote {
+  font-size: small;
+}
+
+.cbutton {
+  width: 80%;
+  border-radius: 6px;
+  background-color: hsl(0, 0%, 20%);
+  font-size: 14px;
+  transition: font-size 0.4s;
+}
+.cbutton:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: black;
+  font-size: 16px;
+}
