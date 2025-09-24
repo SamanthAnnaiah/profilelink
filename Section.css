@@ -1,0 +1,85 @@
+@font-face {
+  font-family: "fgr";
+  src: url("/fgr.otf");
+}
+
+/* Basic styles for the entire page */
+body {
+  font-family: fgr, Arial, sans-serif;
+  margin: 20px;
+  background-color: #ebdbdb;
+  color: #0a0a0a;
+}
+
+/* Container for the whole summary */
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+
+/* Style for the header image */
+.header-image {
+  display: block;
+  margin: 0 auto 20px; /* Center the image */
+}
+
+/* Style for each content section */
+.section {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 0px;
+  font-size: 15px;
+}
+
+/* Color for the section headings (e.g., h2) */
+.section-title {
+  color: black;
+  border-bottom: 2px solid black;
+  padding-bottom: 5px;
+}
+
+.section_sub {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: left;
+  gap: 8px;
+}
+.section_sub div {
+  width: 80%;
+}
+
+.section_sub_1 {
+  margin: 10px;
+}
+
+/* Style for the name-value pair container */
+.detail {
+  margin-bottom: 10px;
+  font-size: 1.1em;
+  display: flex;
+  flex-direction: row;
+}
+
+/* Color for the "Name" part of the pair */
+.detail-name {
+  font-weight: bold;
+  color: #190b02; /* A shade of brown/orange */
+  width: 50%;
+  display: inline-block;
+}
+
+/* Color for the "Value" part of the pair */
+.detail-value {
+  color: #2f4f4f; /* A dark slate gray */
+  width: 50%;
+  display: inline-block;
+}
